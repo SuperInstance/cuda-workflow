@@ -2,13 +2,7 @@
 name = "cuda-workflow"
 version = "0.1.0"
 edition = "2021"
-description = "DAG execution with cycle detection"
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/Lucineer/cuda-workflow"
-readme = "README.md"
-keywords = ["ai", "fleet", "agent", "rust"]
-categories = ["science"]
-
+description = "DAG-based workflow orchestration with dependency resolution and parallel execution."
 [dependencies]
 serde = { version = "1", features = ["derive"] }
-
+serde_json = "1"
